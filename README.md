@@ -29,7 +29,7 @@ phantomjs and casperjs
 
 ### casperjs
 
-- get casperjs from http://casperjs.org/ (Version 1.1-beta3 has been tested)
+- get casperjs (Version 1.1-beta3 has been tested)
   - `wget https://github.com/n1k0/casperjs/tarball/1.1-beta3`
   - `tar xf 1.1-beta3`
 
@@ -69,7 +69,10 @@ phantomjs and casperjs
 
 ## Example
 - simple Resurrectio Example
-`./check_casperjs.pl -w 30000 -c 60000 -t tests/Resurrectio_icinga.org.js`
+`./check_casperjs.pl -w 30000 -c 60000 -t tests/Resurrectio_icinga.
+
+
+.js`
 - wordpress backend example (with static screenshot in /tmp)
 `check_casperjs.pl --warning 50000 --critical 60000 -t tests/wordpress_backend.js --url http://my_wordpress_blog.example.org -o user=testuser -o pass=SecretPassword`
 
